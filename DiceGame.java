@@ -11,6 +11,10 @@ class DiceGame{
 	System.out.println("Die 2:"+ saikoro2);
 	System.out.println("Total value:"+(saikoro1 + saikoro2));
 	
-	
+	if((saikoro1+saikoro2)>7){
+	System.out.println("You won");
+	}else{
+	System.out.println("You lost");
+	}
     }
 }
